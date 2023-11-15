@@ -9,6 +9,6 @@ lint:
 	ruff *.py
 
 test:
-	python -m pytest -vv --cov=main *.py
+	python -m pytest -vv --cov=test_main *.py
 		
 all: install test format lint
